@@ -42,6 +42,7 @@ const Header = () => {
       ) {
         setDropdownLogo(false);
         setToggleLeftMenu(false);
+        document.body.style.overflowY = 'scroll';
       }
     };
 
@@ -52,7 +53,7 @@ const Header = () => {
   }, []);
   return (
     <div className="flex relative">
-      <nav className="px-10 flex flex-1 z-[2] max-sm:bg-head max-sm:px-5 max-sm:py-2 ">
+      <nav className="px-10 flex flex-1 z-[2] sm:mr-[260px] max-sm:bg-head max-sm:px-5 max-sm:py-2 ">
         <div className="sm:flex hidden flex-1">
           <div
             onClick={() => setDropdownLogo(!dropdownLogo)}
@@ -187,7 +188,7 @@ const Header = () => {
           <img className="w-[90px] h-[40px]" src="/images/logo.svg" alt="logo" />
         </div>
       </nav>
-      <div className="px-5 flex justify-end items-center sm:min-w-[260px] h-[56px]  bg-head ">
+      <div className="px-5 flex sm:fixed right-0 top-0 z-[3] justify-end items-center sm:min-w-[260px] h-[56px]  bg-head ">
         <div className="hidden sm:flex">
           <img className="w-[90px] h-[40px]" src="/images/logo.svg" alt="logo" />
         </div>

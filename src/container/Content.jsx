@@ -11,16 +11,16 @@ import { MdChevronLeft } from "react-icons/md";
 
 const Content = () => {
   return (
-    <div className="flex gap-5 px-7 py-16 max-sm:items-center  max-[1200px]:flex-col-reverse w-[calc(100vw-260px)]">
+    <div className="flex gap-5 px-7 py-16 max-sm:items-center max-sm:mb-10 max-[1200px]:flex-col-reverse w-[calc(100vw-260px)]">
       <div className="flex flex-col gap-10">
         <div className="border-[1px]">
           <div className="flex justify-end items-center gap-2 p-4 bg-gray-100">
             <h1 className="font-bold text-gray-500">التنبيهات</h1>
             <GoBell size={20} />
           </div>
-          <div dir="rtl" className="overflow-y-scroll h-96">
+          <div dir="rtl" className="overflow-y-scroll min-w-[350px] h-96">
             {/* many items */}
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
@@ -32,85 +32,88 @@ const Content = () => {
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
+
             <div className="flex p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
               <img className="w-10 h-10" src="/images/item.webp" alt="item" />
             </div>
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/avatar_male.webp"
                 alt="avatar_male"
               />
-              <div className="flex-col px-4 flex-1">
+              <div className="flex-col  px-4 flex-1">
                 <p>زائر أضاف عطر جدور للسلة</p>
                 <span className="text-gray-400">منذ 21 ساعة</span>
               </div>
@@ -126,7 +129,7 @@ const Content = () => {
           </div>
           <div dir="rtl" className="overflow-y-scroll">
             {/* many items */}
-            <div className="flex p-5 border-b">
+            <div className="flex  p-5 border-b">
               <img
                 className="w-10 h-10"
                 src="/images/barfan.webp"

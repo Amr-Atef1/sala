@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="fixed bottom-0 w-full z-[3] border-t-4 border-[#336b7e] bg-head">
       <div
         dir="rtl"
-        className="flex max-sm:flex-col relative justify-center items-center p-2 gap-10"
+        className="flex max-sm:flex-col relative justify-center items-center p-2 max-sm:gap-1 gap-10"
       >
         <p className="text-white">
           عجبتك التجربة؟ انطلق بتجارتك اليوم مع سلة بسهولة و بدون أي عمولة!
